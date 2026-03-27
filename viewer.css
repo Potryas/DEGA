@@ -1,0 +1,48 @@
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #000;
+  font-family: Segoe UI, sans-serif;
+}
+
+#stage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(80, 130, 210, 0.3), transparent 30%),
+    radial-gradient(circle at 80% 80%, rgba(255, 170, 90, 0.2), transparent 25%),
+    #05070b;
+}
+
+#stage img,
+#stage video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  background: #000;
+}
+
+#message {
+  max-width: 70vw;
+  text-align: center;
+  color: #d9e2f2;
+  line-height: 1.5;
+  font-size: 2.2vw;
+}
+
+#message code {
+  font-size: 0.9em;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 0.1em 0.35em;
+  border-radius: 0.3em;
+}
